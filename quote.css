@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    min-height: 100vh;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: linear-gradient(180deg , #bbc8fe 60%,#848db3 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    background-color: #fff;
+    padding: 30px;
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    border-radius: 10px;
+}
+.title{
+    margin: 10px auto;
+    text-align: center;
+}
+.title hr{
+    background-color: rgb(75, 75, 200);
+    width: 13%;
+    height: 3px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: none;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 120px;
+    padding: auto;
+}
+.quote{
+    text-align: center;
+    margin: 20px 0;
+}
+.name{
+    text-align: right;
+    margin-bottom: 10px;    
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px;
+}
+.new, .tweet{
+    padding: 5px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 900;
+    border: none;
+}
+.new {
+    background-color: #2974df;
+    color: #fff;
+}
+.tweet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #2974df;
+}
+.tweet img{
+    width: 15px;
+    margin-right: 10px;
+}
